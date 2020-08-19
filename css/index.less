@@ -1,0 +1,203 @@
+@base:37.5;
+* {
+    margin: 0;
+    padding: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+html {
+    font-family:PingFangSC-Medium,PingFang SC;
+}
+.container,
+.bb-custom-wrapper,
+.bb-bookblock {
+    width: 100%;
+    margin: 0 auto;
+	height: 195rem/@base;
+}
+.container {
+	position: relative;
+    left: 0;
+    box-sizing: border-box;
+	padding: 0 14px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-o-transition: left 0.3s ease-in-out;
+	transition: left 0.3s ease-in-out;
+}
+.bb-item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #fff;
+}
+.content {
+	position: absolute;
+	top: 0rem/@base;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    img{
+        width: 100%;
+        height: 195rem/@base;
+    }
+}
+
+.twoTitle {
+    margin: 20rem/@base 0 10rem/@base;
+    color:rgba(65,47,34,1);
+}
+.twoTitle span {
+	width:3rem/@base;
+	height:12rem/@base;
+	background-color: #FF6B33;
+	display: inline-block;
+	margin: 0 5rem/@base 0 14rem/@base;
+}
+.twoTitle b {
+	font-size: 16rem/@base;
+}
+.video {
+    width: 347rem/@base;
+    height: 100rem/@base;
+    box-sizing: border-box;
+    padding: 10rem/@base 20rem/@base 10rem/@base 16rem/@base;
+    margin: 0 auto;
+    border-radius: 10rem/@base;
+    background-color: #F7F7F7;
+    .videoImg {
+        position: relative;
+        width: 80rem/@base;
+        height: 80rem/@base;
+        margin-right: 20rem/@base;
+        .img1 {
+            width: 100%;
+            height: 100%;
+            border-radius: 10rem/@base;
+        }
+        .img2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 32rem/@base;
+            height: 32rem/@base;
+        }
+    }
+    .center {
+        width: 200rem/@base;
+        h3 {
+            font-size: 14rem/@base;
+            line-height: 20rem/@base;
+            margin-top: 20rem/@base;
+            color:rgba(51,51,51,1);
+            font-weight:400;
+        }
+        span {
+            font-size: 12rem/@base;
+            color: #7C7C7C;
+        }
+    }
+    .rsaquo {
+        width: 8rem/@base;
+        height: 15rem/@base;
+        margin-top: 25rem/@base;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.audio {
+    width: 346rem/@base;
+    height: 80rem/@base;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10rem/@base 20rem/@base 0 16rem/@base;
+    border-radius: 10rem/@base;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    h3 {
+        font-size: 14rem/@base;
+        margin-bottom: 4rem/@base;
+        color:rgba(51,51,51,1);
+    }
+}
+.audio-left {
+    margin-top: 9rem/@base;
+    float: left;
+    width: 250rem/@base;
+}
+.audio-right {
+    float: right;
+    width: 40rem/@base;
+    height: 40rem/@base;
+    margin-top: -10rem/@base;
+}
+.audio-right img {
+    width: 100%;
+    height: 100%;
+    display: initial;   /* 解除与app的样式冲突 */
+    cursor: pointer;
+}
+.progress-bar-bg {
+    background-color: #d9d9d9;
+    position: relative;
+    height: 2rem/@base;
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-color: #FF9E47;
+    width: 0;
+    height: 2rem/@base;
+}
+
+.progress-bar-bg span {
+    content: " ";
+    width: 10rem/@base;
+    height: 10rem/@base;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #FF9E47;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5rem/@base;
+    margin-left: -5rem/@base;
+    cursor: pointer;
+}
+
+.audio-time {
+    overflow: hidden;
+    margin-top: 5rem/@base;
+    font-size: 12rem/@base;
+    color: #999999;
+}
+footer {
+    position: fixed;
+    bottom: 0rem/@base;
+    width: 100%;
+    height: 60rem/@base;
+    background: #5C5C5C;
+    padding: 10rem/@base 20rem/@base 0;
+    box-sizing: border-box;
+    .logo {
+        width: 128rem/@base;
+        height: 40rem/@base;
+    }
+    .button {
+        width: 82rem/@base;
+        height: 36rem/@base;
+    }
+}

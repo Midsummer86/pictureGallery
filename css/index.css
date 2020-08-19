@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+html {
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.container,
+.bb-custom-wrapper,
+.bb-bookblock {
+  width: 100%;
+  margin: 0 auto;
+  height: 5.2rem;
+}
+.container {
+  position: relative;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0 14px;
+  -webkit-transition: left 0.3s ease-in-out;
+  -o-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+}
+.bb-item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: #fff;
+}
+.content {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.content img {
+  width: 100%;
+  height: 5.2rem;
+}
+.twoTitle {
+  margin: 0.53333333rem 0 0.26666667rem;
+  color: #412f22;
+}
+.twoTitle span {
+  width: 0.08rem;
+  height: 0.32rem;
+  background-color: #FF6B33;
+  display: inline-block;
+  margin: 0 0.13333333rem 0 0.37333333rem;
+}
+.twoTitle b {
+  font-size: 0.42666667rem;
+}
+.video {
+  width: 9.25333333rem;
+  height: 2.66666667rem;
+  box-sizing: border-box;
+  padding: 0.26666667rem 0.53333333rem 0.26666667rem 0.42666667rem;
+  margin: 0 auto;
+  border-radius: 0.26666667rem;
+  background-color: #F7F7F7;
+}
+.video .videoImg {
+  position: relative;
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  margin-right: 0.53333333rem;
+}
+.video .videoImg .img1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.26666667rem;
+}
+.video .videoImg .img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+}
+.video .center {
+  width: 5.33333333rem;
+}
+.video .center h3 {
+  font-size: 0.37333333rem;
+  line-height: 0.53333333rem;
+  margin-top: 0.53333333rem;
+  color: #333333;
+  font-weight: 400;
+}
+.video .center span {
+  font-size: 0.32rem;
+  color: #7C7C7C;
+}
+.video .rsaquo {
+  width: 0.21333333rem;
+  height: 0.4rem;
+  margin-top: 0.66666667rem;
+}
+.video .rsaquo img {
+  width: 100%;
+  height: 100%;
+}
+.audio {
+  width: 9.22666667rem;
+  height: 2.13333333rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.26666667rem 0.53333333rem 0 0.42666667rem;
+  border-radius: 0.26666667rem;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+.audio h3 {
+  font-size: 0.37333333rem;
+  margin-bottom: 0.10666667rem;
+  color: #333333;
+}
+.audio-left {
+  margin-top: 0.24rem;
+  float: left;
+  width: 6.66666667rem;
+}
+.audio-right {
+  float: right;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  margin-top: -0.26666667rem;
+}
+.audio-right img {
+  width: 100%;
+  height: 100%;
+  display: initial;
+  /* 解除与app的样式冲突 */
+  cursor: pointer;
+}
+.progress-bar-bg {
+  background-color: #d9d9d9;
+  position: relative;
+  height: 0.05333333rem;
+  cursor: pointer;
+}
+.progress-bar {
+  background-color: #FF9E47;
+  width: 0;
+  height: 0.05333333rem;
+}
+.progress-bar-bg span {
+  content: " ";
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #FF9E47;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.13333333rem;
+  margin-left: -0.13333333rem;
+  cursor: pointer;
+}
+.audio-time {
+  overflow: hidden;
+  margin-top: 0.13333333rem;
+  font-size: 0.32rem;
+  color: #999999;
+}
+footer {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  height: 1.6rem;
+  background: #5C5C5C;
+  padding: 0.26666667rem 0.53333333rem 0;
+  box-sizing: border-box;
+}
+footer .logo {
+  width: 3.41333333rem;
+  height: 1.06666667rem;
+}
+footer .button {
+  width: 2.18666667rem;
+  height: 0.96rem;
+}
